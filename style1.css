@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Anton&family=Roboto+Condensed:ital@1&display=swap');
+
+body{
+    background-image: url('eberhard-grossgasteiger-NvesrDbsrL4-unsplash.jpg');
+}
+
+.flexi{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Anton';
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.7s;
+    padding: 10%;  
+}
+
+.flexi .one:hover,
+.flexi .two:hover,
+.flexi .three:hover,
+.flexi .four:hover,
+.flexi .five:hover,
+.flexi .six:hover
+ {
+    transform: translateY(-5px); 
+}
+
+.one{
+
+    background-color: beige;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.two{
+    
+    background-color: beige;
+    margin-right: 10px;
+    margin-bottom: 5px; 
+}
+
+.three{
+    
+    background-color: beige;
+    margin-right: 10px;
+    margin-bottom: 5px;  
+}
+
+.four{    
+    background-color: beige;
+    margin-right: 10px;
+    margin-bottom: 5px;    
+}
+
+.five{    
+    background-color: beige;
+    margin-right: 10px;
+    margin-bottom: 5px;  
+}
+
+.six{    
+    background-color: beige;
+    margin-right: 10px;
+    margin-bottom: 5px;   
+}

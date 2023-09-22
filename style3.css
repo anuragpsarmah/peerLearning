@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body{
+    background-image: url('eberhard-grossgasteiger-NvesrDbsrL4-unsplash.jpg');
+}
+
+.content{
+    font-family: 'Anton';
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+#main{
+    font-size: 400%;
+    color: rgb(5, 49, 49);
+    padding: 5%;
+}
+#one{
+    font-size: 150%;
+    padding: 2%;
+}
+
